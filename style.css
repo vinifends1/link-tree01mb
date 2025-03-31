@@ -7,8 +7,17 @@
   font-family: "Inter", sans-serif;
 }
 
+:root{
+    --black: #141414;
+    --dark-grey: #1f1f1f; 
+    --white: #FFF;
+}
+
+
+
+
 body {
-    background-color: #141414;
+    background-color: var(--black);
     height: 100vh;
 
     display: flex;
@@ -17,11 +26,27 @@ body {
 }
 
 div {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: var(--dark-grey);
+    color: var(--white);
     width: 384px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+img {
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
 }
 
 il, li {
     list-style: none;
-}
+} 
