@@ -11,6 +11,9 @@
     --black: #141414;
     --dark-grey: #1f1f1f; 
     --white: #FFF;
+    --neon-green: #C4F82A;
+    --grey: #333;
+
 }
 
 
@@ -50,3 +53,33 @@ h1{
 il, li {
     list-style: none;
 } 
+
+strong {
+    color: var(--neon-green);
+    font-size: 14px;
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+a{
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+
+a:hover {
+    background-color: var(--neon-green);
+    color:var(--grey);
+    transition: 0.6s;
+
+}
