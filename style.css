@@ -1,1 +1,27 @@
-/* Add styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #141414;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #1f1f1f;
+    color: white;
+    width: 384px;
+}
+
+il, li {
+    list-style: none;
+}
